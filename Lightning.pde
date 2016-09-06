@@ -2,11 +2,14 @@ int startX = 250;
 int startY = 0;
 int endX = 250;
 int endY = 0;
+
+PImage theFlash;
 void setup()
 {
   size(500,500);
-  strokeWeight(10);
+  strokeWeight(4);
   background(0,0,0);
+ 
 }
 
 void draw() 
@@ -21,7 +24,8 @@ void draw()
 		startY = endY;//set startY to equal endY
 	
 }
-	}
+		}
+
 void mousePressed()
 {
 	startX = 250;
